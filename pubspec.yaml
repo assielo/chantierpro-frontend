@@ -1,0 +1,31 @@
+name: chantierpro
+description: "Application de gestion de chantier"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+  table_calendar: ^3.1.2
+  web_socket_channel: ^3.0.1
+  fl_chart: ^0.68.0
+  shared_preferences: ^2.5.6
+  dio: ^5.4.0
+  file_saver: ^0.2.8
+  excel: ^4.0.6 # Pour générer des fichiers .xlsx
+  path_provider: ^2.1.2 # Pour accéder aux dossiers de l'appareil
+  open_file: ^3.3.2 # Pour ouvrir le fichier généré
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
